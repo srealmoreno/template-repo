@@ -1,4 +1,4 @@
-name: 👻 Stale Closed Issues and PRs
+name: 👻 Stale close issues and PRs
 
 on:
   schedule:
@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   stale:
-    name: 🧹 Clean up stale issues and PRs
+    name: 👻 Stale close issues and PRs
     runs-on: ubuntu-20.04
     steps:
       - name: 🚀 Run stale
