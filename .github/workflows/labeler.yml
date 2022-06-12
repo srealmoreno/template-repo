@@ -8,10 +8,12 @@ permissions:
   pull-requests: write
 
 jobs:
-  triage:
+  labeler:
+    name: 🔖 Pull Request Labeler
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/labeler@v4
+      - name: 🚀 Run labeler
+        uses: actions/labeler@v4
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           sync-labels: true
