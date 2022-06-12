@@ -12,5 +12,8 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v3
 
-      - name: 🚀 Run EditorConfig checker
+      - name: ⤵️ Download EditorConfig checker
         uses: editorconfig-checker/action-editorconfig-checker@main
+
+      - name: 🚀 Run EditorConfig checker
+        run: editorconfig-checker
