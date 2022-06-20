@@ -17,7 +17,7 @@ body:
 
         You may proceed directly to sending a pull request without filing this issue, and we can improve
         on your work.
-        
+
         If you think some of the requirements above are not met, or if you are not able to contribute you
         rself, the issue is still welcomed.
 
@@ -25,7 +25,7 @@ body:
     id: request-info
     attributes:
       label: Description
-      description: 
+      description:
         Tell us, what can be done better or a clear and concise description of what the issue is.
     validations:
       required: true
@@ -47,8 +47,8 @@ body:
       description:
         If you feel like you could contribute to this issue, please check the box below. This would tell
         us and other people looking for contributions that someone's working on it.
-        
-        If you do check this box, please send a pull request within 7 days so we can still delegate this 
+
+        If you do check this box, please send a pull request within 7 days so we can still delegate this
         to someone else.
       options:
         - label: I'd be willing to address this documentation request myself.

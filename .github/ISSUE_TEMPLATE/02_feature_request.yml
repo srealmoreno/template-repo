@@ -14,7 +14,7 @@ body:
     id: description
     attributes:
       label: Feature description
-      description: 
+      description:
         A clear and concise description of what the feature request is. Please include if your feature
         request is related to a problem
     validations:
@@ -24,7 +24,7 @@ body:
     id: code-snippet
     attributes:
       label: Related Code
-      description: 
+      description:
         If you are able to illustrate the bug or feature request with an example, please provide it here
     validations:
       required: false
@@ -33,7 +33,7 @@ body:
     id: additional
     attributes:
       label: Additional Context
-      description: 
+      description:
         List any other information that is relevant to your issue. Stack traces, related issues,
         suggestions on how to add, use case, Stack Overflow links, forum links, screenshots, OS
         if applicable, etc.
@@ -46,7 +46,7 @@ body:
       description:
         If you feel like you could contribute to this issue, please check the box below. This would tell
         us and other people looking for contributions that someone's working on it.
-        
+
         If you do check this box, please send a pull request within 7 days so we can still delegate this
         to someone else.
       options:

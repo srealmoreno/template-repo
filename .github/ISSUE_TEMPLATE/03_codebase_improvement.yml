@@ -15,7 +15,7 @@ body:
       value:
         First off, thanks for taking the time to contribute! Contributions are what make the open-source
         community such an amazing place to learn, inspire, and create.
-        
+
         Any contributions you make will benefit everybody else and are greatly appreciated.
 
   - type: checkboxes
@@ -24,7 +24,7 @@ body:
       description:
         If you feel like you could contribute to this issue, please check the box below. This would tell
         us and other people looking for contributions that someone's working on it.
-        
+
         If you do check this box, please send a pull request within 7 days so we can still delegate this
         to someone else.
       options:

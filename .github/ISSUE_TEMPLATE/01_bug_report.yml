@@ -16,7 +16,7 @@ body:
       label: Environment
       description:
         Please describe your environment in markdown
-        
+
         It may contain any additional information which would help to reproduce the issue.
       placeholder: |
         Browser: Chrome v..v.v
@@ -77,7 +77,7 @@ body:
       description:
         If you feel like you could contribute to this issue, please check the box below. This would tell
         us and other people looking for contributions that someone's working on it.
-        
+
         If you do check this box, please send a pull request within 7 days so we can still delegate this
         to someone else.
       options:
