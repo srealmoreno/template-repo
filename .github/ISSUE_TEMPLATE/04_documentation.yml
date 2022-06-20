@@ -5,23 +5,28 @@ labels: ["documentation 📝"]
 body:
   - type: markdown
     attributes:
-      value: |
-        This template is strictly used for documentation requests, including:
+      value:
+        This template is strictly used for documentation requests, including
 
         - Elaborating on a particular topic;
         - Updating external links;
         - Anything else that doesn't require touching the codebase itself.
 
-        If you followed the documentation but things don't work, take some time to consider if it's the documentation or the code that's wrong. In the latter, prefer using the "bug" template.
+        If you followed the documentation but things don't work, take some time to consider if it's the
+        documentation or the code that's wrong. In the latter, prefer using the "bug" template.
 
-        You may proceed directly to sending a pull request without filing this issue, and we can improve on your work.
-        If you think some of the requirements above are not met, or if you are not able to contribute yourself, the issue is still welcomed.
+        You may proceed directly to sending a pull request without filing this issue, and we can improve
+        on your work.
+        
+        If you think some of the requirements above are not met, or if you are not able to contribute you
+        rself, the issue is still welcomed.
 
   - type: textarea
     id: request-info
     attributes:
       label: Description
-      description: Tell us, what can be done better or a clear and concise description of what the issue is.
+      description: 
+        Tell us, what can be done better or a clear and concise description of what the issue is.
     validations:
       required: true
 
@@ -31,18 +36,20 @@ body:
       label: Select the area that is associated with this issue.
       multiple: true
       options:
-        - Docker Image
-        - script installation
+        - Examples
+        - Packages
         - Wiki
-        - Plugins
         - Other
 
   - type: checkboxes
     attributes:
       label: Self-service
-      description: |
-        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.
-        If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
+      description:
+        If you feel like you could contribute to this issue, please check the box below. This would tell
+        us and other people looking for contributions that someone's working on it.
+        
+        If you do check this box, please send a pull request within 7 days so we can still delegate this 
+        to someone else.
       options:
         - label: I'd be willing to address this documentation request myself.
 
